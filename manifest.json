@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://www.discogs.com/seller/*"],
+      "matches": ["*://www.discogs.com/search/*"],
       "js": ["contentScript.js"],
       "css": ["styles.css"]
     }
