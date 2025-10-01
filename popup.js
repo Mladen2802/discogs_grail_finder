@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const url = tabs[0].url;
   
       // Check if the current URL is a Discogs seller page
-      if (!url.includes('discogs.com/seller')) {
+      if (!url.includes('discogs.com/search')) {
         disableFilters();
       }
     });
